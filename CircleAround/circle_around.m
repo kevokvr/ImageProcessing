@@ -13,6 +13,7 @@ radius = 150;
 
 %center = [250,191];
 
+%distance formula for every pixel
 for r=1:r
     for c=1:c
         if sqrt((r-192)^2 + (c-250)^2)<radius
